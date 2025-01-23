@@ -115,7 +115,7 @@
                               {% endif %}
                             </td>
                             <td>
-                              <p class="mdr">-₱{{sent_trn.amount|intcomma}}</p>
+                              <p class="mdr">-ksh {{sent_trn.amount|intcomma}}</p>
                             </td>
                             <td>
                               <a href="{% url "core:transaction-detail" sent_trn.transaction_id %}" class="btn btn-primary">View <i class="fas fa-eye"></i> </a>
@@ -170,7 +170,7 @@
                               {% endif %}
                             </td>
                             <td>
-                              <p>+₱{{receipt_trn.amount|intcomma}}</p>
+                              <p>+ksh {{receipt_trn.amount|intcomma}}</p>
                             </td>
                             <td>
                               <a href="{% url "core:transaction-detail" receipt_trn.transaction_id %}" class="btn btn-primary">View <i class="fas fa-eye"></i> </a>
@@ -232,7 +232,7 @@
                               {% endif %}
                             </td>
                             <td>
-                              <p>+₱{{req_sender_trn.amount|intcomma}}</p>
+                              <p>+ksh {{req_sender_trn.amount|intcomma}}</p>
                             </td>
                             <td>
                               {% if req_sender_trn.status == "request_settled" %}
@@ -300,7 +300,7 @@
                               {% endif %}
                             </td>
                             <td>
-                              <p>+₱{{req_receipt_trn.amount|intcomma}}</p>
+                              <p>+ksh {{req_receipt_trn.amount|intcomma}}</p>
                             </td>
                             <td>
                               {% if req_receipt_trn.status == "request_settled" %}
