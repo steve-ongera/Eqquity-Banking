@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     
     # Custom Apps
+    'import_export',
     'core',
     'user_auths',
     'account',
