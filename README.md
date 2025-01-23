@@ -28,12 +28,12 @@ An MVP banking app built with Python, Django, & Bootstrap demonstrating core ban
 
 ### Let's connect
 
-- Twitter [@kalvincalimag\_](https://twitter.com/kalvincalimag_)
+- Twitter [@Steve_Ongera\_](https://twitter.com/steve_ongera_)
 
 ### If you find this project helpful, please consider giving it a ⭐.
 
 [⭐](https://github.com/kalvincalimag/django-nextjs-jwt-starter) this repo or follow me on:
 
-- Github [@kalvincalimag](https://github.com/kalvincalimag)
+- Github [@SteveOngera](https://github.com/steve-ongera)
 
-- Medium [@kalvincalimag](https://medium.com/@kalvincalimag)
+- Medium [@SteveOngera](https://medium.com/@kalvincalimag)
